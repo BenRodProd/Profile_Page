@@ -9,10 +9,10 @@ html {
   scroll-behavior: smooth;
 }
 .cursor1 {
-  --cur: url("/swordMouse.png") 60 10, auto;
+  --cur: url("./swordMouse.png") 60 10, auto;
 }
 .cursor2 {
-  --cur: url("/swordMouse2.png") 60 10, auto;
+  --cur: url("./swordMouse2.png") 60 10, auto;
 }
 body {
   /* --l1: hsl(228, 9.8%, 100%);
@@ -693,7 +693,7 @@ ul {
   color: black;
 }
 .style3 {
-  background-image: url("/html/wood.jpg");
+  background-image: url("./html/wood.jpg");
 
   color: rgb(0, 29, 0);
   font-family: Luminari;
@@ -728,14 +728,14 @@ ul {
 .style2b {
   border-style: solid;
   border-width: 140%;
-  border-image: url("/pixelBorder.png") 120 / 70px 70px round;
+  border-image: url("./pixelBorder.png") 120 / 70px 70px round;
   border-image-slice: 50px 50px 50px 50px;
   border-image-outset: 40px;
 }
 .style3b {
   border-style: solid;
   border-width: 140%;
-  border-image: url("/html/wood2.jpg") 90 / 50px 70px stretch;
+  border-image: url("./html/wood2.jpg") 90 / 50px 70px stretch;
   border-image-slice: 50px 50px 50px 50px;
   border-image-outset: 40px;
 }
