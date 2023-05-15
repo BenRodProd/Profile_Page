@@ -147,7 +147,8 @@ input[type="range"]:focus::-ms-fill-upper {
   align-items: right;
 }
 #big {
-  display: flexbox;
+  display: flex;
+  flex-direction: column;
   position: relative;
 }
 
@@ -363,7 +364,7 @@ img {
 } */
 
 #email {
-  display: flexbox;
+  display: flex;
 
   justify-content: center;
   margin-bottom: 50px;
@@ -373,7 +374,6 @@ h2 {
   font-size: 2rem;
 }
 #symbols {
-  display: flexbox;
   flex-direction: row;
   justify-content: space-evenly;
   margin: auto;
@@ -415,6 +415,7 @@ h2 {
 
 .techstack {
   position: relative;
+
   margin-bottom: 0;
 }
 
@@ -772,7 +773,7 @@ ul {
   z-index: -40;
   animation: cloudmove 30s linear;
   animation-iteration-count: infinite;
-  top: 50%;
+  top: 30%;
 }
 .cloud3 {
   position: fixed;
@@ -781,7 +782,7 @@ ul {
   z-index: -40;
   animation: cloudmove 50s linear;
   animation-iteration-count: infinite;
-  top: 130%;
+  top: 63%;
 }
 .cloud4 {
   position: fixed;
@@ -790,7 +791,7 @@ ul {
   z-index: -40;
   animation: cloudmove 35s linear;
   animation-iteration-count: infinite;
-  top: 220%;
+  top: 75%;
 }
 .cloud5 {
   position: fixed;
@@ -799,7 +800,7 @@ ul {
   z-index: -40;
   animation: cloudmove 55s linear;
   animation-iteration-count: infinite;
-  top: 240%;
+  top: 90%;
 }
 @keyframes cloudmove {
   0% {
@@ -807,5 +808,11 @@ ul {
   }
   100% {
     left: 100%;
+  }
+}
+@media (max-width: 500px) {
+  body {
+    display: flex;
+    flex-direction: row;
   }
 }
