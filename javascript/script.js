@@ -292,6 +292,16 @@ slider.addEventListener("input", () => {
     aboutdiv.classList.remove("woody");
     projectlist.classList.remove("woody");
     techStackList.classList.remove("woody");
+    PicBack.classList.add("sea");
+    ContactBack.classList.add("sea");
+    AboutBack.classList.add("sea");
+    ProjectBack.classList.add("sea");
+    StackBack.classList.add("sea");
+    pic.classList.add("sea");
+    contactData.classList.add("sea");
+    aboutdiv.classList.add("sea");
+    projectlist.classList.add("sea");
+    techStackList.classList.add("sea");
   }
 });
 //

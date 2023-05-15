@@ -17,15 +17,6 @@ html {
     auto;
 }
 body {
-  /* --l1: hsl(228, 9.8%, 100%);
-  --l2: hsl(228, 9.8%, 90%);
-  --l3: hsl(228, 9.8%, 63%);
-  --p: hsl(120, 90.4%, 44.9%);
-  --pT: hsla(120, 90%, 45%, 0.031);
-
-  background-color: var(--pT); */
-  /* height:100vh; */
-  display: flexbox;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -150,6 +141,7 @@ input[type="range"]:focus::-ms-fill-upper {
   display: flex;
   flex-direction: column;
   position: relative;
+  font-size: 1rem;
 }
 
 #navbar {
@@ -597,7 +589,6 @@ ul {
 #jugendforscht {
 }
 #jfimg {
-  display: flexbox;
   position: absolute;
   height: 5%;
   width: 80%;
@@ -808,11 +799,5 @@ ul {
   }
   100% {
     left: 100%;
-  }
-}
-@media (max-width: 500px) {
-  body {
-    display: flex;
-    flex-direction: row;
   }
 }
