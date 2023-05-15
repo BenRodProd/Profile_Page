@@ -9,10 +9,12 @@ html {
   scroll-behavior: smooth;
 }
 .cursor1 {
-  --cur: url("./swordMouse.png") 60 10, auto;
+  --cur: url("https://benrodprod.github.io/Profile_Page/swordMouse.png") 60 10,
+    auto;
 }
 .cursor2 {
-  --cur: url("./swordMouse2.png") 60 10, auto;
+  --cur: url("https://benrodprod.github.io/Profile_Page/swordMouse2.png") 60 10,
+    auto;
 }
 body {
   /* --l1: hsl(228, 9.8%, 100%);
@@ -585,7 +587,7 @@ ul {
 
   width: 100%;
   height: 100%;
-  background-image: url("../html/wood3.jpg");
+  background-image: url("https://benrodprod.github.io/Profile_Page/wood3.jpg");
   background-size: cover;
   box-shadow: 30px 30px 30px 30px black;
 }
@@ -728,14 +730,16 @@ ul {
 .style2b {
   border-style: solid;
   border-width: 140%;
-  border-image: url("./pixelBorder.png") 120 / 70px 70px round;
+  border-image: url("https://benrodprod.github.io/Profile_Page/pixelBorder.png")
+    120 / 70px 70px round;
   border-image-slice: 50px 50px 50px 50px;
   border-image-outset: 40px;
 }
 .style3b {
   border-style: solid;
   border-width: 140%;
-  border-image: url("./html/wood2.jpg") 90 / 50px 70px stretch;
+  border-image: url("https://benrodprod.github.io/Profile_Page/wood2.jpg") 90 /
+    50px 70px stretch;
   border-image-slice: 50px 50px 50px 50px;
   border-image-outset: 40px;
 }
