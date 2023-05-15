@@ -17,15 +17,6 @@ html {
     auto;
 }
 body {
-  /* --l1: hsl(228, 9.8%, 100%);
-  --l2: hsl(228, 9.8%, 90%);
-  --l3: hsl(228, 9.8%, 63%);
-  --p: hsl(120, 90.4%, 44.9%);
-  --pT: hsla(120, 90%, 45%, 0.031);
-
-  background-color: var(--pT); */
-  /* height:100vh; */
-  display: flexbox;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -147,8 +138,10 @@ input[type="range"]:focus::-ms-fill-upper {
   align-items: right;
 }
 #big {
-  display: flexbox;
+  display: flex;
+  flex-direction: column;
   position: relative;
+  font-size: 1rem;
 }
 
 #navbar {
@@ -363,7 +356,7 @@ img {
 } */
 
 #email {
-  display: flexbox;
+  display: flex;
 
   justify-content: center;
   margin-bottom: 50px;
@@ -373,7 +366,6 @@ h2 {
   font-size: 2rem;
 }
 #symbols {
-  display: flexbox;
   flex-direction: row;
   justify-content: space-evenly;
   margin: auto;
@@ -415,6 +407,7 @@ h2 {
 
 .techstack {
   position: relative;
+
   margin-bottom: 0;
 }
 
@@ -596,7 +589,6 @@ ul {
 #jugendforscht {
 }
 #jfimg {
-  display: flexbox;
   position: absolute;
   height: 5%;
   width: 80%;
@@ -757,7 +749,7 @@ ul {
   margin-right: 0.5rem;
 }
 .cloud1 {
-  position: absolute;
+  position: fixed;
   width: 120px;
   height: 120px;
   z-index: -40;
@@ -766,40 +758,40 @@ ul {
   top: 10%;
 }
 .cloud2 {
-  position: absolute;
+  position: fixed;
   width: 150px;
   height: 120px;
   z-index: -40;
   animation: cloudmove 30s linear;
   animation-iteration-count: infinite;
-  top: 50%;
+  top: 30%;
 }
 .cloud3 {
-  position: absolute;
+  position: fixed;
   width: 180px;
   height: 120px;
   z-index: -40;
   animation: cloudmove 50s linear;
   animation-iteration-count: infinite;
-  top: 130%;
+  top: 63%;
 }
 .cloud4 {
-  position: absolute;
+  position: fixed;
   width: 200px;
   height: 120px;
   z-index: -40;
   animation: cloudmove 35s linear;
   animation-iteration-count: infinite;
-  top: 220%;
+  top: 75%;
 }
 .cloud5 {
-  position: absolute;
+  position: fixed;
   width: 200px;
   height: 150px;
   z-index: -40;
   animation: cloudmove 55s linear;
   animation-iteration-count: infinite;
-  top: 240%;
+  top: 90%;
 }
 @keyframes cloudmove {
   0% {
