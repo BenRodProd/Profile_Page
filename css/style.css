@@ -30,7 +30,8 @@ body {
   align-items: center;
   text-align: center;
   margin: auto;
-
+  width: 100vw;
+  height: 100vh;
   top: 100px;
   max-width: 900px;
 
@@ -587,7 +588,7 @@ ul {
 
   width: 100%;
   height: 100%;
-  background-image: url("https://benrodprod.github.io/Profile_Page/wood3.jpg");
+  background-image: url("https://benrodprod.github.io/Profile_Page/html/wood3.jpg");
   background-size: cover;
   box-shadow: 30px 30px 30px 30px black;
 }
@@ -695,7 +696,7 @@ ul {
   color: black;
 }
 .style3 {
-  background-image: url("./html/wood.jpg");
+  background-image: url("https://benrodprod.github.io/Profile_Page/html/wood.jpg");
 
   color: rgb(0, 29, 0);
   font-family: Luminari;
@@ -738,8 +739,8 @@ ul {
 .style3b {
   border-style: solid;
   border-width: 140%;
-  border-image: url("https://benrodprod.github.io/Profile_Page/wood2.jpg") 90 /
-    50px 70px stretch;
+  border-image: url("https://benrodprod.github.io/Profile_Page/html/wood2.jpg")
+    90 / 50px 70px stretch;
   border-image-slice: 50px 50px 50px 50px;
   border-image-outset: 40px;
 }
