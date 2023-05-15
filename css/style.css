@@ -757,7 +757,7 @@ ul {
   margin-right: 0.5rem;
 }
 .cloud1 {
-  position: absolute;
+  position: fixed;
   width: 120px;
   height: 120px;
   z-index: -40;
@@ -766,7 +766,7 @@ ul {
   top: 10%;
 }
 .cloud2 {
-  position: absolute;
+  position: fixed;
   width: 150px;
   height: 120px;
   z-index: -40;
@@ -775,7 +775,7 @@ ul {
   top: 50%;
 }
 .cloud3 {
-  position: absolute;
+  position: fixed;
   width: 180px;
   height: 120px;
   z-index: -40;
@@ -784,7 +784,7 @@ ul {
   top: 130%;
 }
 .cloud4 {
-  position: absolute;
+  position: fixed;
   width: 200px;
   height: 120px;
   z-index: -40;
@@ -793,7 +793,7 @@ ul {
   top: 220%;
 }
 .cloud5 {
-  position: absolute;
+  position: fixed;
   width: 200px;
   height: 150px;
   z-index: -40;
