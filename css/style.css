@@ -677,7 +677,7 @@ ul {
   margin-bottom: 2.5rem;
   line-height: 1rem;
   font-size: 0.9rem;
-  color: grey;
+  color: rgb(255, 255, 255);
   word-spacing: 2rem;
   letter-spacing: 0.3rem;
 }
@@ -690,8 +690,9 @@ ul {
 .style3 {
   background-image: url("https://benrodprod.github.io/Profile_Page/html/wood.jpg");
 
-  color: rgb(0, 29, 0);
+  color: rgb(22, 0, 29);
   font-family: Luminari;
+  font-weight: bold;
 }
 .style2 {
   background-color: blue;
