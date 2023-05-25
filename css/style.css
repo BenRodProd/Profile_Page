@@ -343,7 +343,7 @@ img {
 }
 .contactTitle {
   font-size: 50px;
-  background-color: rgb(0, 0, 0, 0);
+  background-color: rgb(0, 0, 0, 0); 
 }
 #contact {
   position: relative;
@@ -545,12 +545,12 @@ ul {
 #aboutscanner {
   position: absolute;
   width: 0;
-  height: 17%;
+  height: 14%;
 }
 #projectscanner {
   position: absolute;
   width: 0;
-  height: 5%;
+  height: 7%;
 }
 .stacks {
   padding: 0;
@@ -560,7 +560,7 @@ ul {
 #stackscanner {
   position: absolute;
   width: 0;
-  height: 18%;
+  height: 58%;
 }
 
 /* ###############################Glass####################### */
@@ -743,8 +743,7 @@ ul {
   position: relative;
   background-image: none;
 }
-.style1Title {
-}
+
 .smallIcon {
   width: 20px;
   margin-right: 0.5rem;

@@ -22,15 +22,17 @@ document.addEventListener("mousemove", function (x) {
 
   let left = x.pageX / 24;
   let top = x.pageY / 24;
+
   if (top < 10) {
     top = 10;
   }
-  if (top > 60) {
-    top = x.pageY / 48;
+  if (top > 50) {
+    top =  48;
   }
   if (left > 60) {
-    left = left = 60;
+    left = 60;
   }
+
   pupille.style.left = left + "%";
   pupille.style.top = top + "%";
   // PUPILLE BACKSNAP
@@ -105,7 +107,7 @@ function followerCheck() {
     circler.classList.remove("pacman");
     circler.classList.remove("sauron");
 
-    createWorm();
+   // createWorm();
   }
 }
 function createWorm() {
@@ -133,8 +135,12 @@ const ContactBack = document.getElementById("contactscanner");
 const AboutBack = document.getElementById("aboutscanner");
 const ProjectBack = document.getElementById("projectscanner");
 const StackBack = document.getElementById("stackscanner");
+const backimg2 = document.getElementById("backimg2");
+const backimg3 = document.getElementById("backimg3");
+const backimg4 = document.getElementById("backimg4");
+const backimg5 = document.getElementById("backimg5");
 if (sliderValue == 1) {
-  ActivatePopupPics();
+ // ActivatePopupPics();
 }
 function SwitchFollower(x) {
   if (x == 1) {
@@ -143,14 +149,30 @@ function SwitchFollower(x) {
     pupiller.classList.remove("pacmanPupilleOn");
     pupiller.classList.add("pupilleOn");
     backimg.src = "avatar.jpg";
+    backimg2.src = "avatar.jpg";
+    backimg3.src = "avatar.jpg";
+    backimg4.src = "avatar.jpg";
+    backimg5.src = "avatar.jpg";
   } else if (x == 2) {
     circler.classList.remove("sauron");
     circler.classList.add("pacman");
     pupiller.classList.remove("pupilleOn");
     pupiller.classList.add("pupilleOff");
     pupiller.classList.add("pacmanPupilleOn");
+    backimg.src = "wood.jpg";
+    backimg2.src = "wood.jpg";
+    backimg3.src = "wood.jpg";
+    backimg4.src = "wood.jpg";
+    backimg5.src = "wood.jpg";
+    // removePopups()
   } else if (x == 3) {
     backimg.src = "wood2.jpg";
+    backimg2.src = "wood2.jpg";
+    backimg3.src = "wood2.jpg";
+    backimg4.src = "wood2.jpg";
+    backimg5.src = "wood2.jpg";
+
+   
   }
 }
 function setTitle() {
@@ -235,7 +257,7 @@ slider.addEventListener("input", () => {
     aboutdiv.classList.remove("glass");
     projectlist.classList.remove("glass");
     techStackList.classList.remove("glass");
-    ActivatePopupPics();
+    //ActivatePopupPics();
   }
   if (sliderValue == 2) {
     PicBack.classList.remove("scanner");
@@ -447,4 +469,13 @@ function ActivatePopupPics() {
       aboutdiv.removeChild(BTdeImg);
     }, 300);
   });
+}
+function removePopups() {
+  aboutdiv.removeChild(jfimg);
+  aboutdiv.removeChild(fccWeb);
+  aboutdiv.removeChild(fcJimg);
+  aboutdiv.removeChild(cpWepImg);
+  aboutdiv.removeChild(cpJSImg);
+  aboutdiv.removeChild(BRdeImg);
+  aboutdiv.removeChild(BTdeImg);
 }
